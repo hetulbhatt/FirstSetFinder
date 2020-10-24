@@ -7,7 +7,7 @@ A java program to find first sets of non-terminals of productions.
 
 > When I started coding, I didnt think of multi-character non-terminals like 'extends', so use single character non-terminals.
 
-> Epsilon(null) is pound(#)
+> Epsilon(null) is pound(#).
 
 > Don't keep spaces while providing the RHS in the productions. 
 (good: abAB|rR|PQ|#	bad: abAB | rR | PQ | #)
