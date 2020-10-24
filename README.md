@@ -1,20 +1,11 @@
 # FirstSetFinder
 A java program to find first sets of non-terminals of productions.
 
-> List<String> orderMaintainer does not affect correctness of the algorithm, 
-it is used solely to maintain the order of the output.
+> List<String> orderMaintainer does not affect correctness of the algorithm, it is used solely to maintain the order of the output.
 
-> Recurively asked for Firsts of non-terminating characters, 
-would have included caching of those in real life scenarios using Map<String, Set<Character>>.
+> Recurively found for Firsts of non-terminating characters, can use Map<String, Set<Character>> for caching.
 
-> I have attached screenshots of all the examples provided by MSB sir in Ch4e_Handouts.pdf 
-along with the solution output-ed by my java code.
-
-> When I started coding, I didnt think of multi-character non-terminals like 'extends',
-I have substituted them with single character non-terminals in the screenshots.
-
-> Same thing goes with dashed non-terminals (eg. E')
-substituted them with the character before them (ie. E' => D) in the screenhots.
+> When I started coding, I didnt think of multi-character non-terminals like 'extends', so use single character non-terminals.
 
 > Epsilon(null) is pound(#)
 
